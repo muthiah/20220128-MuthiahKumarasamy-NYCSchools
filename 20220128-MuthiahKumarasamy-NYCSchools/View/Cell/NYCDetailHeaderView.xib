@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NYCDetailHeaderView" customModule="_0220128_MuthiahKumarasamy_NYCSchools" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XRA-Ip-aZh">
+                    <rect key="frame" x="0.0" y="0.0" width="453" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBP-Sq-dbg">
+                            <rect key="frame" x="8" y="8" width="42" height="18"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OBP-Sq-dbg" firstAttribute="leading" secondItem="XRA-Ip-aZh" secondAttribute="leading" constant="8" id="0Hd-Hv-Lgv"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OBP-Sq-dbg" secondAttribute="bottom" constant="8" id="0ry-OG-3fG"/>
+                        <constraint firstItem="OBP-Sq-dbg" firstAttribute="top" secondItem="XRA-Ip-aZh" secondAttribute="top" constant="8" id="z93-qA-UKG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="XRA-Ip-aZh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FtF-LT-4pM"/>
+                <constraint firstItem="XRA-Ip-aZh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bow-O3-M9O"/>
+                <constraint firstAttribute="bottom" secondItem="XRA-Ip-aZh" secondAttribute="bottom" id="r6l-9Q-IsL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XRA-Ip-aZh" secondAttribute="trailing" id="ysw-nc-2ep"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="labelSectionTitle" destination="OBP-Sq-dbg" id="0ZX-bh-iCE"/>
+            </connections>
+            <point key="canvasLocation" x="-10.869565217391305" y="-530.35714285714289"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

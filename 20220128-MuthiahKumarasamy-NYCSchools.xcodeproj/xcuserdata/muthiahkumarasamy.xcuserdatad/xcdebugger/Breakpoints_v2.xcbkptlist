@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9E295064-6A6F-4D41-8153-C0C32C75690F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72454857-4AC8-4AD5-B030-11C0BF0E1BD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolDetailViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F6BECD4-6647-4A77-90CC-2A20FCF18AEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F6BECD4-6647-4A77-90CC-2A20FCF18AEA - f51ac6ac559c2ed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;_0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolModel&gt;&gt;) -&gt; () in _0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolViewModelTests.setUp() -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "0F6BECD4-6647-4A77-90CC-2A20FCF18AEA - f51ac6ac559c2ed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;_0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolModel&gt;&gt;) -&gt; () in _0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolViewModelTests.setUp() -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "0F6BECD4-6647-4A77-90CC-2A20FCF18AEA - f51ac6ac559c2ed0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;_0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolModel&gt;&gt;) -&gt; () in _0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolViewModelTests.setUp() -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDAD728B-3DB4-41C0-8CFA-40F9C350817F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDAD728B-3DB4-41C0-8CFA-40F9C350817F - 40bd91eb2fb6cf59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in _0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolViewModelTests.setUp() -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "BDAD728B-3DB4-41C0-8CFA-40F9C350817F - 40bd91eb2fb6cf59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in _0220128_MuthiahKumarasamy_NYCSchoolsTests.NYCSchoolViewModelTests.setUp() -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1237F27-A808-4E4F-BC70-60784B882C73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/Test/ApiMockManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchDataFromDisk(model:api:successCallback:failureCallback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72F7DBF6-8DBB-42E2-ACFC-54384EF9C4F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/Test/ApiMockManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchDataFromDisk(model:api:successCallback:failureCallback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72F7DBF6-8DBB-42E2-ACFC-54384EF9C4F2 - 778d7f8f2ea1c9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0220128_MuthiahKumarasamy_NYCSchoolsTests.ApiMockManager.fetchDataFromDisk&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(model: &#x3c4;_0_0.Type, api: _0220128_MuthiahKumarasamy_NYCSchoolsTests.MockEndPoint, successCallback: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failureCallback: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/Test/ApiMockManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "72F7DBF6-8DBB-42E2-ACFC-54384EF9C4F2 - 778d7f8f2ea1cfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0220128_MuthiahKumarasamy_NYCSchoolsTests.ApiMockManager.fetchDataFromDisk&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(model: &#x3c4;_0_0.Type, api: _0220128_MuthiahKumarasamy_NYCSchoolsTests.MockEndPoint, successCallback: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failureCallback: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "20220128-MuthiahKumarasamy-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muthiahkumarasamy/Desktop/20220128-MuthiahKumarasamy-NYCSchools/20220128-MuthiahKumarasamy-NYCSchoolsTests/Test/ApiMockManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66F9A1BF-876E-4515-96A6-48BF6013BCD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/_0220128_MuthiahKumarasamy_NYCSchoolsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "_0220128_MuthiahKumarasamy_NYCSchoolsTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFF57D39-5281-48CB-80F5-47C44291D408"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220128-MuthiahKumarasamy-NYCSchoolsTests/NYCSchoolDetailViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "NYCSchoolDetailViewModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

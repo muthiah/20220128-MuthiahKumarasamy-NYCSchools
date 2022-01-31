@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--School Dasboard View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="NYCSchoolDasboardViewController" id="BYZ-38-t0r" customClass="NYCSchoolDasboardViewController" customModule="_0220128_MuthiahKumarasamy_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="TZg-q4-ibh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="g3h-GI-gtp"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ibV-TN-IwX"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TZg-q4-ibh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cfg-wC-YYV"/>
+                            <constraint firstItem="TZg-q4-ibh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JWe-U2-NZx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TZg-q4-ibh" secondAttribute="bottom" id="Mug-mY-wlM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TZg-q4-ibh" secondAttribute="trailing" id="tQv-Ve-Rl6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="schoolTableView" destination="TZg-q4-ibh" id="LhL-EU-JBi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="80"/>
+        </scene>
+        <!--School Detail View Controller-->
+        <scene sceneID="Kgk-n6-lAG">
+            <objects>
+                <viewController storyboardIdentifier="NYCSchoolDetailViewController" id="4Fx-oO-guO" customClass="NYCSchoolDetailViewController" customModule="_0220128_MuthiahKumarasamy_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="95d-uC-cO6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Au4-LD-mk4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4Fx-oO-guO" id="oaQ-mU-iUO"/>
+                                    <outlet property="delegate" destination="4Fx-oO-guO" id="U4T-OI-Gza"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rcI-r3-L2Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rcI-r3-L2Z" firstAttribute="bottom" secondItem="Au4-LD-mk4" secondAttribute="bottom" id="JRe-PM-Gt3"/>
+                            <constraint firstItem="Au4-LD-mk4" firstAttribute="leading" secondItem="rcI-r3-L2Z" secondAttribute="leading" id="R2K-Bg-Jaw"/>
+                            <constraint firstItem="rcI-r3-L2Z" firstAttribute="trailing" secondItem="Au4-LD-mk4" secondAttribute="trailing" id="mKw-4B-BB2"/>
+                            <constraint firstItem="Au4-LD-mk4" firstAttribute="top" secondItem="rcI-r3-L2Z" secondAttribute="top" id="ysR-hA-hLL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="schoolDetailTableView" destination="Au4-LD-mk4" id="ySs-DD-qbY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1f-m2-xL6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
