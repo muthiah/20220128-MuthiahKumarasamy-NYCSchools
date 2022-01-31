@@ -37,23 +37,23 @@ class NYCSchoolDetailViewModelTests: XCTestCase {
     }
     
     func testWritingScore(){
-        XCTAssertNotEqual(self.testViewModel.writingScore , "", "No writing score are presented for this school \(self.testViewModel.writingScore)")
+        XCTAssertNotEqual(self.testViewModel.writingScore , "", "No writing score are presented for this school \(self.testViewModel.schoolName)")
     }
     
     func testReadingScore(){
-        XCTAssertNotEqual(self.testViewModel.readingScore, "",  "No reading score are presented for this school \(self.testViewModel.readingScore)")
+        XCTAssertNotEqual(self.testViewModel.readingScore, "",  "No reading score are presented for this school \(self.testViewModel.schoolName)")
     }
     
     func testSports(){
-        XCTAssertNotEqual(self.testViewModel.sports, "" , "No sports data are presented for this school \(self.testViewModel.sports)")
+        XCTAssertNotEqual(self.testViewModel.sports, "" , "No sports data are presented for this school \(self.testViewModel.schoolName)")
     }
     
     func testExtraCuricularActivities(){
-        XCTAssertNotEqual(self.testViewModel.extraCuricularActivities, "", "No ExtraCuricular Activities are presented for  this school \(self.testViewModel.extraCuricularActivities)")
+        XCTAssertNotEqual(self.testViewModel.extraCuricularActivities, "", "No ExtraCuricular Activities are presented for  this school \(self.testViewModel.schoolName)")
     }
     
     func testLanguages(){
-        XCTAssertNotEqual(self.testViewModel.languages, "" , "No languages data are presented for this school \(self.testViewModel.languages)")
+        XCTAssertNotEqual(self.testViewModel.languages, "" , "No languages data are presented for this school \(self.testViewModel.schoolName)")
     }
     
     func testSchoolName() {
@@ -61,7 +61,7 @@ class NYCSchoolDetailViewModelTests: XCTestCase {
     }
     
     func testLocation(){
-        XCTAssertNotEqual(self.testViewModel.location, "", "No location data for the school \(self.testViewModel.location)")
+        XCTAssertNotEqual(self.testViewModel.location, "", "No location data for the school \(self.testViewModel.schoolName)")
     }
     
     func testTotalStudents(){
