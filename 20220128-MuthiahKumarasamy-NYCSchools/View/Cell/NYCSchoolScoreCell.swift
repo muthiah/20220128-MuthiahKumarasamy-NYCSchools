@@ -13,6 +13,8 @@ class NYCSchoolScoreCell: UITableViewCell {
     @IBOutlet weak var labelWriting: UILabel!
     @IBOutlet weak var labelReading: UILabel!
     
+    ///   Set the scores of the school
+    /// - Parameter index: viewModel of the  NYCSchoolDetailViewModel 
     func setViewModel(viewModel: NYCSchoolDetailViewModel?) {
         labelMaths.text = viewModel?.mathsScore
         labelWriting.text = viewModel?.writingScore

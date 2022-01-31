@@ -15,7 +15,6 @@ class NYCSchoolViewModel: BaseViewModel {
     ///   GetSchoolName
     /// - Parameter index: index of the [NYCSchoolModel]
     /// - Returns: School name of the school
-
     func getSchoolName(index: Int?) -> String? {
         guard let index = index else {
             return ""
@@ -26,8 +25,7 @@ class NYCSchoolViewModel: BaseViewModel {
     ///   GetSchoolLocation
     /// - Parameter index: index of the [NYCSchoolModel]
     /// - Returns: location of the school combination of address, city , zip
-  
-    func getSchoolLocation(index: Int?) -> String? {
+      func getSchoolLocation(index: Int?) -> String? {
         guard let index = index else {
             return ""
         }
@@ -51,7 +49,6 @@ class NYCSchoolViewModel: BaseViewModel {
     ///   Check the phone number in the School
     /// - Parameter index: index of the [NYCSchoolModel]
     /// - Returns: check the phonenumber is available for school
-    
     func isPhoneNumberAvailable(index: Int?) -> Bool? {
         return !(getPhoneNumber(index: index)?.isEmpty ?? false)
     }
@@ -60,7 +57,6 @@ class NYCSchoolViewModel: BaseViewModel {
     ///   Get the phone number in the School
     /// - Parameter index: index of the [NYCSchoolModel]
     /// - Returns: Get the phonenumber for school
-    
     func getPhoneNumber(index: Int?) -> String? {
         guard let index = index else {
             return ""
@@ -73,7 +69,6 @@ class NYCSchoolViewModel: BaseViewModel {
     ///   Get the total students in the School
     /// - Parameter index: index of the [NYCSchoolModel]
     /// - Returns: Get the total students for school
-    
     func getTotalStudents(index: Int?) -> String? {
         guard let index = index else {
             return ""
@@ -86,7 +81,6 @@ class NYCSchoolViewModel: BaseViewModel {
     }
     
     /// Function to fetch the school list from the service
-    
     func getSchools() {
         NYCSchoolService.shared.getSchools { [weak self] response in
             self?.numberOfSections = 1

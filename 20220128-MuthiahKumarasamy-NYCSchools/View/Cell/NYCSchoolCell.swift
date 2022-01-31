@@ -26,6 +26,8 @@ class NYCSchoolCell: UITableViewCell {
     var index: Int?
     
     
+    ///   setViewModel for the NYCSchoolModel
+    /// - Parameter index: viewModel of the  NYCSchoolViewModel , index of the Indexpath row ,
     func setViewModel (viewModel: NYCSchoolViewModel?, index: Int?) {
         self.index = index
         self.viewModel = viewModel
@@ -35,7 +37,8 @@ class NYCSchoolCell: UITableViewCell {
         buttonPhoneNumber.isHidden = !(self.viewModel?.isPhoneNumberAvailable(index: index) ?? true)
     }
     
-    
+    ///   setDetailViewModel for the NYCSchoolModel
+    /// - Parameter index: viewModel of the  NYCSchoolDetailViewModel
     func setDetailViewModel (viewModel: NYCSchoolDetailViewModel?) {
         self.detailViewModel = viewModel
         labelSchoolName.text = self.detailViewModel?.schoolName
@@ -43,7 +46,8 @@ class NYCSchoolCell: UITableViewCell {
         labelStudentsCount.text = self.detailViewModel?.totalStudents
         buttonPhoneNumber.isHidden = !(self.detailViewModel?.isPhoneNumberAvailable ?? true)
     }
-
+    
+ 
     @IBAction func didTapPhoneNumber(_ sender: UIButton) {
         if let index = index , let viewModel = viewModel {
             self.delegate?.didTapPhoneNumber(phoneNumber: viewModel.getPhoneNumber(index: index))

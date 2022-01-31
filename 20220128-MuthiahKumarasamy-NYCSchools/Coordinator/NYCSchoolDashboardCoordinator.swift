@@ -22,9 +22,11 @@ class NYCSchoolDashboardCoordinator: MainCoordinator {
         navigationController?.pushViewController(vc, animated: false)
     }
     
-    func coordianteToDetails(index:Int) {
-        let coordinator = NYCSchoolDetailCooridnator(navigationController: navigationController)
-        coordinator.start(passThoughData: passThroughData?[index])
+    func coordianteToDetails(index:Int?) {
+        if let index = index {
+            let coordinator = NYCSchoolDetailCooridnator(navigationController: navigationController)
+            coordinator.start(passThoughData: passThroughData?[index])
+        }
     }
 }
 

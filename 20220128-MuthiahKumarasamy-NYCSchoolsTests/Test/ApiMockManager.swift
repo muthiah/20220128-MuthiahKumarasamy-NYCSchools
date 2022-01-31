@@ -18,7 +18,6 @@ class ApiMockManager {
     
     func fetchDataFromDisk<T:Decodable>(model:T.Type, api:MockEndPoint, successCallback: (@escaping (_ model:T?) -> Void) , failureCallback: (@escaping (_ error:Error?) -> Void))  {
         
-        
         if let file = Bundle.main.url(forResource: api.rawValue, withExtension: nil) {
             if let data = try? Data(contentsOf: file) {
                 if let response = try? JSONDecoder().decode(T.self, from: data) {

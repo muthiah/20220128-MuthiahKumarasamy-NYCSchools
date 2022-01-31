@@ -32,8 +32,8 @@ class NYCSchoolDasboardViewController: BaseViewController  {
         viewModel?.reloadUI = { [weak self] in
             DispatchQueue.main.async {
                 self?.hideActivityIndicator()
+                // Setting the passThroughData [NYCSchoolModel] for the selected School data
                 self?.coordinator?.passThroughData = self?.viewModel?.schoolModels
-                
                 self?.schoolTableView.reloadData()
             }
         }

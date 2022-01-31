@@ -11,10 +11,12 @@ import XCTest
 class NYCSchoolViewModelTests: XCTestCase {
 
     var testViewModel: NYCSchoolViewModel!
+    var mockManager : NYCSchoolMockService!
 
     override func setUp() {
         testViewModel = NYCSchoolViewModel()
-        NYCSchoolMockService.shared.getSchools { [weak self] response in
+        mockManager = NYCSchoolMockService.shared
+        mockManager.getSchools { [weak self] response in
             self?.testViewModel.schoolModels = response
             XCTAssert((response?.count ?? 0 > 0), "No schools are there")
         } failureCallback: { errorDescription in

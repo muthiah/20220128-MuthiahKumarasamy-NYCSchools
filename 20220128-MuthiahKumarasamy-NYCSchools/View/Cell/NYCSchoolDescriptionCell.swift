@@ -11,6 +11,8 @@ class NYCSchoolDescriptionCell: UITableViewCell {
 
     @IBOutlet weak var labelDescription: UILabel!
     
+    ///   setViewModel for the NYCSchoolModel description
+    /// - Parameter index: viewModel of the  NYCSchoolDetailViewModel
     func setViewModel(viewModel: NYCSchoolDetailViewModel? , index: Int) {
         labelDescription.text = viewModel?.getDetailModel(index: index)
     }

@@ -12,10 +12,11 @@ import XCTest
 class NYCSchoolDetailViewModelTests: XCTestCase {
 
     var testViewModel: NYCSchoolDetailViewModel!
+    var mockManager : NYCSchoolMockService!
     
     override func setUp() {
-        
-        NYCSchoolMockService.shared.getSchools { [weak self] response in
+        mockManager = NYCSchoolMockService.shared
+        mockManager.getSchools { [weak self] response in
             XCTAssert((response?.count ?? 0 > 0), "No schools are there")
             let passThroughData = NYCSchoolDetailViewModel(passThroughData: response?.randomElement()) // fetching random School data for testing
             self?.testViewModel = passThroughData
@@ -23,7 +24,7 @@ class NYCSchoolDetailViewModelTests: XCTestCase {
             XCTAssert(false, String(errorDescription ?? ""))
         }
         
-        NYCSchoolMockService.shared.getSchoolsDetails { [weak self] response in
+        mockManager.getSchoolsDetails { [weak self] response in
             XCTAssert((response?.count ?? 0 > 0), "No School Details are there")
             self?.testViewModel.schoolsDetailModels  = response
             self?.testViewModel.loadSections()
